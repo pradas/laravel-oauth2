@@ -4,6 +4,7 @@ namespace App\Listeners;
 
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Support\Facades\DB;
 use Laravel\Passport\Events\RefreshTokenCreated;
 
 class PruneOldTokens
